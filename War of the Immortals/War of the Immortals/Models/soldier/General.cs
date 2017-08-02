@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace IMMORTALS
+using War_of_the_Immortals.Interfaces;
+namespace War_of_the_Immortals.models.Soldier
 {
-    public class General :Soldier
+    public class General : Soldier, IUpperField
     {
     }
 }
