@@ -4,9 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:War_of_the_Immortals"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        xmlns:view="clr-namespace:War_of_the_Immortals.View"
+        mc:Ignorable="d" 
+        d:DesignHeight="800" d:DesignWidth="1500"
+        Title="Start Screen" >
     <Grid>
-
+        <view:Play_mat/>
     </Grid>
 </Window>

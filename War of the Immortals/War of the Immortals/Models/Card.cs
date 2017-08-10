@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Controls;
 using War_of_the_Immortals.models.CardElements;
 using War_of_the_Immortals.View;
-namespace War_of_the_Immortals
+namespace War_of_the_Immortals.models
 {
     public class Card
     {

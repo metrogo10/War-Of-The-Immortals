@@ -6,8 +6,44 @@
              xmlns:local="clr-namespace:War_of_the_Immortals.View"
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="1500">
-    <StackPanel Background="Green">
-        <Grid Background="Blue" x:Name="UpperField" Height="332" Margin="93,50,73,20"/>
-        <Grid Background="Red" x:Name="LowerField" Height="317" Margin="93,30,73,20"/>
-    </StackPanel>
+    <Grid Background="Green">
+        <Grid Background="Blue" x:Name="UpperField" Margin="108,88,87,442">
+            <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="185" />
+                    <ColumnDefinition Width="185" />
+                    <ColumnDefinition Width="185" />
+                    <ColumnDefinition Width="185" />
+                    <ColumnDefinition Width="185" />
+                    <ColumnDefinition Width="185" />
+                    <ColumnDefinition Width="185" />
+            </Grid.ColumnDefinitions>
+                <local:CardDefault x:Name="UpperField1"  Grid.Column="0" Margin="10"/>
+                <local:CardDefault x:Name="UpperField2"  Grid.Column="1" Margin="10"/>
+                <local:CardDefault x:Name="UpperField3"  Grid.Column="2" Margin="10"/>
+                <local:CardDefault x:Name="UpperField4"  Grid.Column="3" Margin="10"/>
+                <local:CardDefault x:Name="UpperField5"  Grid.Column="4" Margin="10"/>
+                <local:CardDefault x:Name="UpperField6"  Grid.Column="5" Margin="10"/>
+                <local:CardDefault x:Name="UpperField7"  Grid.Column="6" Margin="10"/>
+        </Grid>
+        <Label BorderBrush="Black" BorderThickness="2" Margin="108,88,87,442"/>
+        <Grid Background="Red" x:Name="LowerField"  Margin="108,475,87,55">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="185" />
+                <ColumnDefinition Width="185" />
+                <ColumnDefinition Width="185" />
+                <ColumnDefinition Width="185" />
+                <ColumnDefinition Width="185" />
+                <ColumnDefinition Width="185" />
+                <ColumnDefinition Width="185" />
+            </Grid.ColumnDefinitions>
+            <local:CardDefault x:Name="LowerField1"  Grid.Column="0" Margin="10"/>
+            <local:CardDefault x:Name="LowerField2"  Grid.Column="1" Margin="10"/>
+            <local:CardDefault x:Name="LowerField3"  Grid.Column="2" Margin="10"/>
+            <local:CardDefault x:Name="LowerField4"  Grid.Column="3" Margin="10"/>
+            <local:CardDefault x:Name="LowerField5"  Grid.Column="4" Margin="10"/>
+            <local:CardDefault x:Name="LowerField6"  Grid.Column="5" Margin="10"/>
+            <local:CardDefault x:Name="LowerField7"  Grid.Column="6" Margin="10"/>
+        </Grid>
+        <Label BorderBrush="Black" BorderThickness="2" Margin="108,475,87,55"/>
+    </Grid>
 </UserControl>

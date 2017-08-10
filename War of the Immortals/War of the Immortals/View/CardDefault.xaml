@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:War_of_the_Immortals.View"
              mc:Ignorable="d" 
              d:DesignHeight="500" d:DesignWidth="350">
-    <Grid Background="White">
+    <Grid>
+        <Label BorderBrush="Black" BorderThickness="3"></Label>
     </Grid>
 </UserControl>

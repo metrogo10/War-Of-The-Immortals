@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace IMMORTALS.Cards
+namespace War_of_the_Immortals.models
 {
     public class Deck
     {
