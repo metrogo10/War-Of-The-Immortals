@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 using War_of_the_Immortals.Interfaces;
 namespace War_of_the_Immortals.models.Instruments
 {
-    public class Mechanism :Card, ILowerField
+    public class Mechanism : Card, ILowerField, IEffect
     {
+        public void Effect()
+        {
+            throw new NotImplementedException();
+        }
+        public long Effect(params int[] d)
+        {
+            throw new NotImplementedException();
+        }
+        public string Effect(params string[] s)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
