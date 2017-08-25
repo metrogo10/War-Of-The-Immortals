@@ -12,21 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using War_of_the_Immortals.models;
-namespace War_of_the_Immortals
+
+namespace War_of_the_Immortals.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for GameMat.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class GameMat : UserControl
     {
-        public MainWindow()
+        public GameMat()
         {
             InitializeComponent();
-        }
-        public void Turn(Player p)
-        {
-           Card c= p.deck.Draw();
         }
     }
 }

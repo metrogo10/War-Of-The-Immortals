@@ -54,8 +54,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\Player.cs" />
     <Compile Include="View\CardDefault.xaml.cs">
       <DependentUpon>CardDefault.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GameMat.xaml.cs">
+      <DependentUpon>GameMat.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Play mat.xaml.cs">
       <DependentUpon>Play mat.xaml</DependentUpon>
@@ -79,6 +83,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\CardDefault.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GameMat.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
